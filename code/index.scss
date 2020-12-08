@@ -1,0 +1,118 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+
+body{
+    background-color: hsl(235, 21%, 11%);
+    
+}
+
+.first-section{
+    background-image: url("/images/images/bg-desktop-dark.jpg");
+    height: 300px;
+}
+
+
+.first-section .head-div .top-bg{
+justify-content:center;
+align-items: center;
+display: flex;
+margin-left:0.5%;
+padding-top: 5%;
+font-weight: bolder;
+color: white;
+}
+
+.first-section .head-div .top-bg .moon-icon{
+margin-left: 37%;
+}
+
+.first-section .create-new-badge{
+    width:45%;
+    height:3%;
+    background-color:white;
+    border-radius:3px;
+    margin:30px auto;
+}
+
+
+.create-new-badge .input-radio{
+width:2vw;
+height:auto;
+margin:1vh;
+// margin-top:-30px;
+ 
+}
+
+
+
+.create-new-badge .input-text-input{
+    width:80%;
+    height:auto;
+    padding-bottom:1%;
+    border:none;
+    margin-top:4%;
+    margin-bottom:2%;
+}
+.create-new-badge .input-text-input:focus{
+    outline:none;
+    border:none;
+}
+
+
+
+@media (min-width:0px) and (max-width:425px){
+
+    .first-section .head-div .top-bg{
+        justify-content:center;
+        align-items: center;
+        display: flex;
+        margin-left:0.5%;
+        padding-top:5%;
+        font-weight: bolder;
+        color: white;
+        }
+        
+        .first-section .head-div .top-bg .moon-icon{
+        margin-left: 64%;
+        }
+
+
+
+    .first-section .create-new-badge{
+        width:90%;
+        height:3%;
+        background-color:white;
+        border-radius:3px;
+        margin:30px auto;
+    }
+    
+
+
+    .create-new-badge .input-text-input{
+        width:80%;
+        height:auto;
+        padding-bottom:2%;
+        border:none;
+        margin-top:4%;
+        margin-bottom:1%;
+    }
+    .create-new-badge .input-text-input:focus{
+        outline:none;
+        border:none;
+    }
+    
+}
+
+@media (min-width:425.1px) and (max-width:1000px){
+
+    .first-section .create-new-badge{
+        width:70%;
+        height:3%;
+        background-color:white;
+        border-radius:3px;
+        margin:30px auto;
+    }
+    
+}
