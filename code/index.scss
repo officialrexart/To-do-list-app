@@ -11,6 +11,7 @@ body{
 .first-section{
     background-image: url("/images/images/bg-desktop-dark.jpg");
     height: 300px;
+    width: 100%;
 }
 
 
@@ -63,6 +64,17 @@ margin:1vh;
 
 
 @media (min-width:0px) and (max-width:425px){
+
+
+
+    .first-section{
+        background-image: url("/images/images/bg-mobile-dark.jpg");
+        height: 200px;
+        width: 100vw;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
 
     .first-section .head-div .top-bg{
         justify-content:center;
