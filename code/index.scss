@@ -10,8 +10,9 @@ body{
 
 .first-section{
     background-image: url("/images/images/bg-desktop-dark.jpg");
-    height: 300px;
+    height: 290px;
     width: 100%;
+    padding-top:10px;
 }
 
 
@@ -20,7 +21,7 @@ justify-content:center;
 align-items: center;
 display: flex;
 margin-left:0.5%;
-padding-top: 5%;
+padding-top:4%;
 font-weight: bolder;
 color: white;
 }
@@ -34,7 +35,8 @@ margin-left: 37%;
     height:3%;
     background-color:white;
     border-radius:3px;
-    margin:30px auto;
+    margin:0px auto;
+    margin-top:60px;
 }
 
 
@@ -42,18 +44,16 @@ margin-left: 37%;
 width:2vw;
 height:auto;
 margin:1vh;
-// margin-top:-30px;
- 
 }
 
 
 
 .create-new-badge .input-text-input{
     width:80%;
-    height:auto;
+    height:16%;
     padding-bottom:1%;
     border:none;
-    margin-top:4%;
+    margin-top:5%;
     margin-bottom:2%;
 }
 .create-new-badge .input-text-input:focus{
@@ -63,9 +63,51 @@ margin:1vh;
 
 
 
+.second-section .main-body-part{
+    width:45vw;
+    height: 300px;
+    margin:0px auto;
+    margin-top:-3.1%;
+
+}
+
+
+.routine-div{
+    width:100%;
+    height:16%;
+    background-color:hsl(235, 24%, 19%);
+    border-top:0.5px solid hsl(235, 11%, 41%);
+    color:white;
+    text-align: center;
+    // padding-top:20px;
+   
+}
+
+.one{
+   border-top-left-radius:5px;
+   border-top-right-radius:5px;
+   border-top: 0px;
+}
+
+.seven{
+    border-bottom-left-radius:5px;
+    border-bottom-right-radius:5px;
+    // border-top: 0px;
+ }
+
+ .last-div{
+     display: none;
+ }
+
+
+
+
+
+                                        // (UNDER ARE MEDIA QUERIES FOR DIFFERENT SCREEN SIZES)
+
+
+
 @media (min-width:0px) and (max-width:425px){
-
-
 
     .first-section{
         background-image: url("/images/images/bg-mobile-dark.jpg");
@@ -115,6 +157,27 @@ margin:1vh;
         border:none;
     }
     
+
+    
+
+.second-section .main-body-part{
+    width:90vw;
+    height: 300px;
+    margin: auto;
+    margin-top:-7.1%;
+
+}
+
+
+
+.last-div{
+    width:100%;
+    height:16%;
+    border-radius:5px;
+    background-color:hsl(235, 24%, 19%);
+    margin-top:20px;
+}
+
 }
 
 @media (min-width:425.1px) and (max-width:1000px){

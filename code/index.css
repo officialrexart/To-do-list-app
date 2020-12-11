@@ -9,8 +9,9 @@ body {
 
 .first-section {
   background-image: url("/images/images/bg-desktop-dark.jpg");
-  height: 300px;
+  height: 290px;
   width: 100%;
+  padding-top: 10px;
 }
 
 .first-section .head-div .top-bg {
@@ -24,7 +25,7 @@ body {
   display: -ms-flexbox;
   display: flex;
   margin-left: 0.5%;
-  padding-top: 5%;
+  padding-top: 4%;
   font-weight: bolder;
   color: white;
 }
@@ -38,7 +39,8 @@ body {
   height: 3%;
   background-color: white;
   border-radius: 3px;
-  margin: 30px auto;
+  margin: 0px auto;
+  margin-top: 60px;
 }
 
 .create-new-badge .input-radio {
@@ -49,16 +51,47 @@ body {
 
 .create-new-badge .input-text-input {
   width: 80%;
-  height: auto;
+  height: 16%;
   padding-bottom: 1%;
   border: none;
-  margin-top: 4%;
+  margin-top: 5%;
   margin-bottom: 2%;
 }
 
 .create-new-badge .input-text-input:focus {
   outline: none;
   border: none;
+}
+
+.second-section .main-body-part {
+  width: 45vw;
+  height: 300px;
+  margin: 0px auto;
+  margin-top: -3.1%;
+}
+
+.routine-div {
+  width: 100%;
+  height: 16%;
+  background-color: #25273c;
+  border-top: 0.5px solid #5d5f74;
+  color: white;
+  text-align: center;
+}
+
+.one {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-top: 0px;
+}
+
+.seven {
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.last-div {
+  display: none;
 }
 
 @media (min-width: 0px) and (max-width: 425px) {
@@ -106,6 +139,19 @@ body {
   .create-new-badge .input-text-input:focus {
     outline: none;
     border: none;
+  }
+  .second-section .main-body-part {
+    width: 90vw;
+    height: 300px;
+    margin: auto;
+    margin-top: -7.1%;
+  }
+  .last-div {
+    width: 100%;
+    height: 16%;
+    border-radius: 5px;
+    background-color: #25273c;
+    margin-top: 20px;
   }
 }
 
