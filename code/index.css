@@ -89,6 +89,10 @@ body {
   margin-top: 1.2vh;
 }
 
+.imgg {
+  display: none;
+}
+
 .done {
   text-decoration: line-through;
 }
