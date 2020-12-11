@@ -78,15 +78,26 @@ margin:1vh;
     background-color:hsl(235, 24%, 19%);
     border-top:0.5px solid hsl(235, 11%, 41%);
     color:white;
-    text-align: center;
+    font-size: 10px;
+    // text-align: center;
     // padding-top:20px;
-   
+}
+.routine-div p{
+    margin-top:-3.5vh;
+    margin-left:9vh;
+}
+.gradient-button img{
+    margin-left:1.2vh;
+    margin-top:1.2vh;   
+}
+
+.done{
+    text-decoration: line-through;
 }
 
 .one{
    border-top-left-radius:5px;
    border-top-right-radius:5px;
-   border-top: 0px;
 }
 
 .seven{
@@ -97,6 +108,21 @@ margin:1vh;
 
  .last-div{
      display: none;
+ }
+
+
+ .gradient-button {
+     width: 4vh;
+     height: 4vh;
+     border-radius: 50%;
+     background-image: -webkit-linear-gradient(top, hsl(192, 100%, 67%), hsl(280, 87%, 65%));
+     margin-top: 10px;
+     margin-left: 2%;
+    //  border: 1px solid white;
+
+ }
+ .check1{
+     padding-top: -30px;
  }
 
 

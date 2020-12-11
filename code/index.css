@@ -76,13 +76,26 @@ body {
   background-color: #25273c;
   border-top: 0.5px solid #5d5f74;
   color: white;
-  text-align: center;
+  font-size: 10px;
+}
+
+.routine-div p {
+  margin-top: -3.5vh;
+  margin-left: 9vh;
+}
+
+.gradient-button img {
+  margin-left: 1.2vh;
+  margin-top: 1.2vh;
+}
+
+.done {
+  text-decoration: line-through;
 }
 
 .one {
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
-  border-top: 0px;
 }
 
 .seven {
@@ -92,6 +105,19 @@ body {
 
 .last-div {
   display: none;
+}
+
+.gradient-button {
+  width: 4vh;
+  height: 4vh;
+  border-radius: 50%;
+  background-image: -webkit-linear-gradient(top, #57ddff, #c058f3);
+  margin-top: 10px;
+  margin-left: 2%;
+}
+
+.check1 {
+  padding-top: -30px;
 }
 
 @media (min-width: 0px) and (max-width: 425px) {
